@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mad Lib</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Mad Lib</h1>
+    <hr />
+
+    <h2>Mad Lib Instructions</h2>
+    <p>
+      Fill in all of the input boxes, then click the <em>"Mad Lib"</em> button.
+    </p>
+
+    <ol type="I">
+      <span style="font: small-caps">
+        <li>
+          Plural Noun:
+          <div class="bold"><input id="plural" type="text" /></div>
+        </li>
+        <li>
+          Adjective:
+          <div class="bold"><input id="adjective" type="text" /></div>
+        </li>
+        <li>
+          Present Tense Verb:
+          <div class="bold"><input id="verb" type="text" /></div>
+        </li>
+        <li>
+          Noun:
+          <div class="bold"><input id="noun" type="text" /></div>
+        </li>
+      </span>
+    </ol>
+
+    <p>
+      <button id="btn1">Create!</button>
+      <button id="btn2" class="yellow">Create!!</button>
+    </p>
+    <hr />
+
+    <h2>Mad Lib Results</h2>
+    <div id="result">
+      <p id="outcome1">
+        <em>"There are too many ____ on this ____ airplane!"</em> I screamed.
+      </p>
+      <p id="outcome2">
+        <em>"Somebody has to ____ on the ____ to solve this problem!"</em>
+      </p>
+    </div>
+  </body>
+</html>
